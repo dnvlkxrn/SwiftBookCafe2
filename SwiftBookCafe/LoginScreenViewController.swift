@@ -26,7 +26,7 @@ final class LoginScreenViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let mainVC = segue.destination as? MainViewController else { return }
+        guard let mainVC = segue.destination as? InfoViewController else { return }
         mainVC.someLabelWithCustomerName.text = customerNameTextField.text
             //переход на главный экран.
             //1. вместо MainViewController назначить класс главного экрана;

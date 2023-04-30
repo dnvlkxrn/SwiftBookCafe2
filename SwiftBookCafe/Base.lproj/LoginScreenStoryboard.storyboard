@@ -50,6 +50,8 @@
                                 <state key="normal" title="Начать заказывать!"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Начать заказывать!">
                                     <fontDescription key="titleFontDescription" name="PTSerif-Caption" family="PT Serif Caption" pointSize="16"/>
+                                    <color key="baseForegroundColor" red="1" green="0.93725490199999995" blue="0.83137254900000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="baseBackgroundColor" red="0.47058823529999999" green="0.1529411765" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="goButtonPressed" destination="Y6W-OH-hqX" eventType="touchUpInside" id="iH1-DJ-VL1"/>
@@ -81,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-21" y="4"/>
+            <point key="canvasLocation" x="-22.137404580152669" y="3.5211267605633805"/>
         </scene>
         <!--InfoStoryboard-->
         <scene sceneID="zrI-tI-QuP">
